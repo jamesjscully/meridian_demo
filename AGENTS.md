@@ -8,3 +8,4 @@ Project-specific guidance:
 - Treat `AGENTS.md`, `SOUL.md`, `Stages/workflow.md`, and `Stages/STATUS.json` as the main project-level coordination files.
 - Stage-specific intent should live inside each stage, not in a global `INTENT.md`.
 - Put generic runtime behavior in `.pi/SYSTEM.md`; keep this file focused on project-specific guidance.
+- Let `SOUL.md` handle voice and stance; keep this file focused on project structure and intent.

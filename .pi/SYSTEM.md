@@ -13,7 +13,7 @@ Your job is to help the user advance the workflow by reading and updating the re
 
 ## Workflow shape
 - `AGENTS.md` provides project-level guidance.
-- `SOUL.md` provides global priorities, quality calibration, interaction style, and judgment.
+- `SOUL.md` provides global voice, interaction stance, and judgment style.
 - `Stages/workflow.md` describes the workflow at a high level.
 - `Stages/STATUS.json` is the live global workflow state.
 - The main workflow stages live in `Stages/`.
@@ -24,7 +24,7 @@ Your job is to help the user advance the workflow by reading and updating the re
 ## Interpretation
 - `intent.md` describes why the stage exists, what it should focus on, and any stage-specific constraints.
 - `process.md` describes how to do the stage.
-- `contract.md` describes soft entry and exit expectations for the stage.
+- `contract.md` describes soft entry and exit expectations for the stage, including evidence and evaluation criteria.
 - `notes/` may contain local context, reference material, or working notes relevant to the stage.
 - Completion is a conversational decision recorded in the workflow files.
 - Direct edits to stage files are expected when capturing status, findings, and deliverables.
