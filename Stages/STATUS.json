@@ -1,0 +1,23 @@
+{
+  "workflow_status": "not_started",
+  "current_stage": null,
+  "next_steps": [
+    "Define the workflow in `Stages/workflow.md`.",
+    "Create the first active stage from `Stages/00-stage-template/`.",
+    "Update this file with the active stage and the next concrete action."
+  ],
+  "stages": {
+    "00-stage-template": {
+      "status": "template",
+      "state": "Reference structure for future stages."
+    }
+  },
+  "status_legend": {
+    "template": "Reference only; not an active stage by default.",
+    "not_started": "Defined but not yet active.",
+    "in_progress": "Currently being worked on.",
+    "waiting_for_user": "Needs user input or a user decision before continuing.",
+    "done": "Complete enough to move forward.",
+    "skipped": "Intentionally not used."
+  }
+}
